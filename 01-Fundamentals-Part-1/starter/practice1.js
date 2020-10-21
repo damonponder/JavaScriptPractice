@@ -11,12 +11,20 @@
 // }
 // console.log(Client)
 
-// function Variables() {
-//     let country = 'United States';
-//     let continent = 'North America';
-//     let population = '300 million';
-// return Variables;
+// DATATYPES
 
-// }
+    let country = 'United States';
+    let continent = 'North America';
+    let population = '300 million';
+
+
+
 // console.log(Variables);
 
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
