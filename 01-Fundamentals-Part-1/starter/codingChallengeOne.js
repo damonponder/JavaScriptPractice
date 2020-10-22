@@ -22,13 +22,13 @@ const markBMITwo = markMassTwo / (markHeightTwo * markHeightTwo)
 const johnBMITwo = johnMassTwo / (johnHeightTwo * johnHeightTwo)
 
 if (markBMI > johnBMI) {
-    console.log(markMassGreatter) 
+    console.log(`Marks BMI  is ${markMassGreatter}`) 
 } else {
-    console.log(johnMassGreater)
+    console.log(`Johns BMI is ${johnMassGreater}`)
 }
 
 if (markBMITwo > johnBMITwo) {
-    console.log(markMassGreatter)
+    console.log(`Marks BMI is ${markMassGreatter}`)
 } else {
-    console.log(johnMassGreater)
+    console.log(`Johns BMI is ${johnMassGreater}`)
 }
