@@ -37,3 +37,26 @@ console.log(x);
 
 console.log(currentAgeDamon > currentAgeSarah);
 console.log(currentAgeSarah >= 18);
+
+//Equlaity Operators
+
+const ageEquality = '18'
+// Triple equal does not allow type coercion
+if(ageEquality === 18) console.log("Congratulations your an adult")
+
+//Double equal does allow type coercion
+//As general rule avoid double equal as much as possible
+if(ageEquality == 18) console.log("Congratulations your an adult-loose")
+
+
+const favorite = Number(prompt('what is your favorite number?'))
+console.log((favorite))
+
+if(favorite === 23) {
+    console.log('Cool! 23 is an amazing age!')
+} else if (favorite === 36) {
+    console.log('36 is also a very great age!')
+} else if (favorite === 40) {
+    console.log('Bummer! you are officially old!')
+} else (favorite >= 50)
+    console.log("You've had a great run, but its time to call it!")
