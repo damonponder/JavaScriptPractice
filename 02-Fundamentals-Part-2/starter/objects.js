@@ -28,3 +28,5 @@ const jonasObject = {
 //     console.log('Wrong request!')
 // }
 
+
+console.log(`${jonasObject.firstName} has 3 friends, ${jonasObject.friends} and his best friend is ${jonasObject.friends[0]}`)
