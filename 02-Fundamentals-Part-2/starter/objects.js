@@ -4,9 +4,17 @@
 const jonasObject = {
     firstName: 'Jonas',
     lastName: 'Schmegman',
+    birthyear1: 1974,
     Job: 'Teacher',
-    age: 2020 - 1991,
-    friends: ['Michael', 'Peter', 'Steven']
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+    //Must be Expression Function
+    // calcAge: function(birthyear1) {
+    //     return 2020 - birthyear1;
+    // }
+    calcAge: function() {
+        return 2020 - this.birthyear1;
+    }
 };
 
 // Dot vs. Bracket Notation
@@ -29,4 +37,10 @@ const jonasObject = {
 // }
 
 
-console.log(`${jonasObject.firstName} has 3 friends, ${jonasObject.friends} and his best friend is ${jonasObject.friends[0]}`)
+// console.log(`${jonasObject.firstName} has 3 friends, ${jonasObject.friends} and his best friend is ${jonasObject.friends[0]}`)
+
+//Any function attached to object is called a Method
+
+console.log(jonasObject.calcAge());
+
+// console.log(jonasObject['calcAge'](1974));
