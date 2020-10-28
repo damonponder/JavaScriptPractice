@@ -7,14 +7,26 @@ const jonasObject = {
     birthyear1: 1974,
     Job: 'Teacher',
     friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: true,
+    hasDriversLicense: function() {
+        if(this.age >= 18) {
+            return 'a'
+        } else {
+            return 'no'
+        }
+    },
     //Must be Expression Function
     // calcAge: function(birthyear1) {
     //     return 2020 - birthyear1;
     // }
+    // calcAge: function() {
+    //     return 2020 - this.birthyear1;
+    // }
+
     calcAge: function() {
-        return 2020 - this.birthyear1;
+        this.age = 2020 - this.birthyear1;
+        return this.age; 
     }
+
 };
 
 // Dot vs. Bracket Notation
@@ -41,6 +53,13 @@ const jonasObject = {
 
 //Any function attached to object is called a Method
 
-console.log(jonasObject.calcAge());
+// console.log(jonasObject.calcAge());
+// console.log(jonasObject.age());
+// console.log(jonasObject.age());
+// console.log(jonasObject.age());
+// console.log(jonasObject.age());
 
-// console.log(jonasObject['calcAge'](1974));
+//codingChallenge
+
+//Jonas is a 40 year old teacher, and he has a/no driver's license
+console.log(`${jonasObject.firstName} is a ${jonasObject.calcAge()} year old teacher, and he has ${jonasObject.hasDriversLicense()} drivers license`)
