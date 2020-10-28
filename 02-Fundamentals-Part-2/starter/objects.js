@@ -1,19 +1,19 @@
 //This object has 5 properties
 // This is considered object literal syntax
 
-const jonasObject = {
-    firstName: 'Jonas',
-    lastName: 'Schmegman',
-    birthyear1: 1974,
-    Job: 'Teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: function() {
-        if(this.age >= 18) {
-            return 'a'
-        } else {
-            return 'no'
-        }
-    },
+// const jonasObject = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmegman',
+//     birthyear1: 1974,
+//     Job: 'Teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: function() {
+//         if(this.age >= 18) {
+//             return 'a'
+//         } else {
+//             return 'no'
+//         }
+//     },
     //Must be Expression Function
     // calcAge: function(birthyear1) {
     //     return 2020 - birthyear1;
@@ -22,12 +22,12 @@ const jonasObject = {
     //     return 2020 - this.birthyear1;
     // }
 
-    calcAge: function() {
-        this.age = 2020 - this.birthyear1;
-        return this.age; 
-    }
+//     calcAge: function() {
+//         this.age = 2020 - this.birthyear1;
+//         return this.age; 
+//     }
 
-};
+// };
 
 // Dot vs. Bracket Notation
 // We can get the object by using dot notation
@@ -62,4 +62,4 @@ const jonasObject = {
 //codingChallenge
 
 //Jonas is a 40 year old teacher, and he has a/no driver's license
-console.log(`${jonasObject.firstName} is a ${jonasObject.calcAge()} year old teacher, and he has ${jonasObject.hasDriversLicense()} drivers license`)
+// console.log(`${jonasObject.firstName} is a ${jonasObject.calcAge()} year old teacher, and he has ${jonasObject.hasDriversLicense()} drivers license`)
