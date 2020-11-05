@@ -1,5 +1,10 @@
 // let js = 'amazing';
 // console.log(40+8+23-10);
+//values and variables
+//Imagine variables as being a box
+//You can put things into the box and use it later
+//Camel case is proper writing style of variables
+// variables can not start with upper case or numbers
 
 // function Client(fn, ln, a, g, e) {
 //     let firstName = "Damon"
