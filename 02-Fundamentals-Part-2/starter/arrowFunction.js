@@ -17,3 +17,19 @@ console.log(yearsUntilRetirement(1974, 'Damon'));
 console.log(yearsUntilRetirement(1983, 'Silvia'));
 
 
+const thisIsAFunction = () => {
+
+}
+//declarative function
+function thisIsDeclarative() {
+    console.log('this is a declarative function')
+}
+//function expression
+
+const thisIsExpression = function () {
+    console.log('This is an expression function')
+}
+
+const thisIsArrow = () => {
+    console.log('this is an arrow function for short code blocks')
+}

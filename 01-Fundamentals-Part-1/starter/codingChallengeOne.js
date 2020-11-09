@@ -7,11 +7,11 @@ const markMassGreatter = 'Marks mass is Greater';
 let markMassOne = 78
 let markHeightOne = 1.69
 
-let johnMassOne = 92
-let johnHeightOne = 1.95
-
 let markMassTwo =  95
 let markHeightTwo = 1.88
+
+let johnMassOne = 92
+let johnHeightOne = 1.95
 
 let johnMassTwo = 85
 let johnHeightTwo = 1.76
